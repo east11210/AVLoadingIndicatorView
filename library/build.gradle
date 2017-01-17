@@ -27,7 +27,8 @@ dependencies {
 
 def siteUrl = "https://github.com/east11210/AVLoadingIndicatorView"
 def gitUrl = "https://github.com/east11210/AVLoadingIndicatorView.git"
-group = "com.godimage.avi"
+group = "com.godimage.3pp"
+archivesBaseName = "av-loading-indicator-view"
 
 install {
     repositories.mavenInstaller {
