@@ -7,7 +7,7 @@ android {
     defaultConfig {
         applicationId "com.wang.avi.sample"
         minSdkVersion 14
-        targetSdkVersion 23
+        targetSdkVersion TARGET_SDK_VERSION as int
         versionCode 33
         versionName "2.1.3"
     }
@@ -21,7 +21,7 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.android.support:appcompat-v7:25.0.1'
-    compile 'com.android.support:recyclerview-v7:25.0.1'
+    compile 'com.android.support:appcompat-v7:' + SUPPORT_LIBRARY_VERSION
+    compile 'com.android.support:recyclerview-v7:' + SUPPORT_LIBRARY_VERSION
     compile project(':library')
 }
